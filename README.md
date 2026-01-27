@@ -3,7 +3,7 @@
 An end-to-end deep learning system that detects cattle in images and classifies their breed.
 
 ## Live App
-[Streamlit Deployment Link Here]
+[https://cattlebreedclassifier-u2marrrgzv6fyzfnu9tahh.streamlit.app/]
 
 ## Features
 - YOLOv8 object detection for cattle localization
