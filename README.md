@@ -1,9 +1,9 @@
-# Cattle Breed Detection & Classification System
+# Cattle Detection & Breed Classification System
 
 An end-to-end deep learning system that detects cattle in images and classifies their breed.
 
 ## App
-[Cattle Breed Detection & Classification System](https://cattlebreedclassifier-u2marrrgzv6fyzfnu9tahh.streamlit.app/)
+[Cattle Detection & Breed Classification System](https://cattlebreedclassifier-u2marrrgzv6fyzfnu9tahh.streamlit.app/)
 
 ## Features
 - YOLOv8 object detection for cattle localization
