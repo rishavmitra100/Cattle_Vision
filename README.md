@@ -1,4 +1,4 @@
-# Cattle Detection & Breed Classification System
+# Cattle-Vision
 
 An end-to-end deep learning system that detects cattle in images and classifies their breed.
 
