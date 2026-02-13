@@ -97,7 +97,7 @@ st.sidebar.markdown("### Supported Cattle Breeds")
 st.sidebar.markdown("\n".join([f"- {str.capitalize(breed)}" for breed in breed_labels]))
 st.set_page_config(page_title="Cattle Breed Detector", layout="wide")
 
-st.title("Cattle Breed Detection System")
+st.title("Cattle-Vision")
 st.write("Upload an image to detect cattle and identify their breeds. To upload another image click on **Browse files**. You can view the supported cattle breeds in the sidebar.")
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 if uploaded_file:
@@ -129,4 +129,5 @@ if uploaded_file:
             "cattle_result.jpg",
             "image/jpeg"
         )
+
     
