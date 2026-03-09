@@ -1,5 +1,6 @@
 # imports
 import streamlit as st
+st.set_page_config(page_title="Cattle Breed Detector", layout="wide")
 import torch
 import torch.nn as nn
 from  torchvision import models, transforms
@@ -95,7 +96,7 @@ def pipeline(image):
 st.sidebar.divider()
 st.sidebar.markdown("### Supported Cattle Breeds")
 st.sidebar.markdown("\n".join([f"- {str.capitalize(breed)}" for breed in breed_labels]))
-st.set_page_config(page_title="Cattle Breed Detector", layout="wide")
+
 
 st.title("Cattle-Vision")
 st.write("Upload an image to detect cattle and identify their breeds. To upload another image click on **Browse files**. You can view the supported cattle breeds in the sidebar.")
@@ -131,3 +132,4 @@ if uploaded_file:
         )
 
     
+
