@@ -1,6 +1,6 @@
 # imports
 import streamlit as st
-st.set_page_config(page_title="Cattle Breed Detector", layout="wide")
+st.set_page_config(page_title="Cattle Vision", layout="wide")
 import torch
 import torch.nn as nn
 from  torchvision import models, transforms
@@ -132,4 +132,5 @@ if uploaded_file:
         )
 
     
+
 
