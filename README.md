@@ -1,8 +1,8 @@
 # Cattle-Vision
 
-An end-to-end deep learning system that detects cattle in images and classifies their breed.
+An end-to-end deep learning system that detects cattle in images, draws a bounding box around it and classifies its breed from 15 cattle breeds with confidence score.
 
-## App
+## Streamlit App Link
 [Cattle Vision](https://cattlebreedclassifier-u2marrrgzv6fyzfnu9tahh.streamlit.app/)
 
 ## Features
